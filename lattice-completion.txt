@@ -1,0 +1,46 @@
+Here is the step-by-step construction of the binomial interest rate tree with the given criteria:
+
+Rate calculation:
+
+Period 0: 
+rate_01 = 3.5%
+
+Period 1:
+rate_11 = 4.75%  
+rate_12 = rate_11 * e^(2 * (2-1) * 0.12) = 0.05325
+
+Period 2:
+rate_21 = 5.01%
+rate_22 = rate_21 * e^(2 * (2-1) * 0.12) = 0.0589
+rate_23 = rate_21 * e^(2 * (3-1) * 0.12) = 0.0661
+
+Period 3: 
+rate_31 = 0.051 (coupon rate)  
+rate_32 = 0.051
+rate_33 = 0.051
+rate_34 = 0.051
+
+Value calculation:
+
+Period 3:
+rate_31: discounted_value_31 = 100, value_31 = 100 + 5.1 = 105.1  
+rate_32: discounted_value_32 = 100, value_32 = 100 + 5.1 = 105.1
+rate_33: discounted_value_33 = 100, value_33 = 100 + 5.1 = 105.1  
+rate_34: discounted_value_34 = 100, value_34 = 100 + 5.1 = 105.1
+avg_value_3 = (105.1 + 105.1 + 105.1 + 105.1) / 4 = 105.1
+
+Period 2:
+rate_21: discounted_value_21 = avg_value_3/(1+rate_21) = 100, value_21 = discounted_value_21 + 5.1 = 105.1
+rate_22: discounted_value_22 = avg_value_3/(1+rate_22) = 99.257, value_22 = discounted_value_22 + 5.1 = 104.357
+rate_23: discounted_value_23 = avg_value_3/(1+rate_23) = 98.515, value_23 = discounted_value_23 + 5.1 = 103.615
+avg_value_2 = (105.1 + 104.357 + 103.615) / 3 = 104.357
+
+Period 1:  
+rate_11: discounted_value_11 = avg_value_2/(1+rate_11) = 99.485, value_11 = discounted_value_11 + 5.1 = 104.585
+rate_12: discounted_value_12 = avg_value_2/(1+rate_12) = 98.971, value_12 = discounted_value_12 + 5.1 = 104.071
+avg_value_1 = (104.585 + 104.071) / 2 = 104.328
+
+Period 0:
+rate_01: discounted_value_01 = avg_value_1/(1+rate_01) = 100.737, value_01 = discounted_value_01 = 100.737
+
+Does this help explain how to construct the binomial interest rate tree step-by-step? Let me know if you need any clarification or have additional questions!

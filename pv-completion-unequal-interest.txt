@@ -1,0 +1,19 @@
+Period 1:
+Cash flow = $90
+Present value = $90 x 0.9420 = $84.78
+
+Period 2:
+Cash flow = $90
+Present value = $90 x 0.8890 = $80.01
+
+Period 3:
+Cash flow = $90
+Present value = $90 x 0.8573 = $77.16
+
+Period 4:
+Cash flow = $1090
+
+Present value = $1090 x 0.8304 = $904.54
+
+Sum the present values: $84.78 + $80.01 + $77.16 + $904.54 = $1146.49
+Therefore, the present value of the future cash flows is $1146.49

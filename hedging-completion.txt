@@ -1,0 +1,29 @@
+Here is a summary of my proposed hedging strategy for the given fixed income portfolio:
+
+Portfolio Duration:
+
+- Treasury 01/15/2030: Duration 7.5, Face Value $50m -> Contribution to Portfolio Duration = 7.5 * (50/475) = 7.9  
+- Treasury 01/15/2050: Duration 27.5, Face Value $150m -> Contribution to Portfolio Duration = 27.5 * (150/475) = 34.2
+- Corporate Bonds 12/31/2025: Duration 4.3, Face Value $100m -> Contribution to Portfolio Duration = 4.3 * (100/475) = 9.1
+- Mortgages 08/15/2035: Duration 10.5, Face Value $175m -> Contribution to Portfolio Duration = 10.5 * (175/475) = 31.6
+
+- Total Portfolio Duration = 7.9 + 34.2 + 9.1 + 31.6 = 82.8 years
+
+Key Risk Factors:
+
+- The portfolio has significant interest rate risk exposure given the long duration of 27.5 years for the 2050 Treasury bonds. 
+- A 25 bps increase in rates would result in a loss of around 82.8 * 0.25% = 0.21% or $1.05 million in the portfolio value.
+
+Hedging Instrument:
+
+- I would recommend using interest rate futures to hedge the interest rate exposure. Specifically, shorting the 10-year Treasury note futures contract.
+- Rationale is that futures provide an effective and liquid way to hedge interest rate risk for a portfolio with long duration bonds.
+- Interest rate swaps less optimal given upfront credit risk with swap counterparties. Credit default swaps not relevant for interest rate risk.
+
+Concentration Risks:
+
+- Portfolio has concentration in long duration Treasury bonds maturing in 2050. 
+- Accounts for 31.6% of the total portfolio duration risk.
+- Should look to diversify into shorter maturity bonds to reduce concentration.
+
+In summary, the proposed hedging strategy is to short 10-year Treasury futures contracts to hedge the portfolio's significant interest rate risk exposure from long duration bonds. Regular monitoring and adjustments required to maintain the hedge ratio. Diversification into shorter maturity bonds also recommended to reduce concentration risk.

@@ -1,0 +1,21 @@
+Okay, since the interest is now paid semi-annually, there are some changes to the calculations:
+
+1. The number of compounding periods (n) per year is now 2 since there are 2 six-month periods per year. 
+
+2. The interest rate must be adjusted to the semi-annual rate. The annual rate is 10%, so the semi-annual rate is 10%/2 = 5%.
+
+3. The number of total periods (n) is now 5 years x 2 periods per year = 10 periods.
+
+With these updates, the steps are:
+
+1. Discount rate (r) is 5%/100 = 0.05 
+
+2. Number of periods (n) is 10
+
+3. Discount factor = 1 / (1 + 0.05)^10 = 0.61391
+
+4. Present value = Future value x Discount factor  
+           = $161.05 x 0.61391
+           = $98.81
+
+So with semi-annual compounding, the present value is $98.81. Let me know if this makes sense!

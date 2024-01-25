@@ -1,0 +1,11 @@
+Okay, let's analyze this yield curve step-by-step:
+
+- Comparing the short-term yields (1 month, 3 month) to the long-term yields (7+ years), we see that short-term yields are higher than long-term yields. Short-term yields are decreasing as maturity lengthens.
+
+- The yield spread between the 10 year and 1 year is negative. The 10 year yield of 4.50% is lower than the 1 year yield of 4.90%. 
+
+- The shape of the yield curve is downward sloping. Short-term yields are higher than long-term yields.
+
+Based on this analysis, I would predict the yield curve is indicating an economic contraction or recession is likely. The negative yield spread and downward sloping curve typically foreshadows slower economic growth and lower inflation ahead. Investors are pessimistic about long-term growth prospects compared to the near-term.
+
+In summary, the inverted yield curve suggests we are late in the business cycle and the economy may be heading for a downturn. The Fed would likely need to cut rates to boost growth. My recommendation would be to reduce duration risk in fixed income portfolios by moving out of longer-term bonds and into shorter-term securities and cash.

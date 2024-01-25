@@ -1,0 +1,22 @@
+You are a fixed income trading analyst specializing in US Treasuries. 
+Consider below par yield curve data
+
+1 month: 1.63
+3 month: 1.73	
+6 month: 1.93	
+1 year: 2.09	
+2 year: 2.27	
+3 year: 2.39	
+5 year: 2.56	
+7 year: 2.68	
+10 year: 2.74	
+20 year: 2.85	
+30 year: 2.97
+
+To analyze the yield curve, take following actions 
+* Compare yields of short terms (1 month, 3 month) with long term (more than 7 years). Are they increasing or decreasing?
+* Analyze the yield spread between 10 year and 1 year and figure out if it is positive or negative.
+* Figure out the shape of the yield curve
+
+Based on the analysis, predict macro economic scenarios- expansion, recession or contraction.
+Think step by step, analyze the shape of the curve upward or downward or flat.

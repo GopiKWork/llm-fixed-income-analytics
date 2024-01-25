@@ -1,0 +1,65 @@
+Analyze the three bond portfolios given the macro economic conditions.
+
+Bond Type Allocation Price
+U.S. Treasury Bonds (5-year, 2% coupon) 50% 98.23
+Investment-Grade Corporate Bonds (7-year, AA-rated, 3% coupon) 30% 101.57 Mortgage-Backed Securities (10-year, AAA-rated, 3.5% coupon) 10% 99.38
+Municipal Bonds (5-year, AAA-rated, 2.5% coupon) 10% 95.6823
+
+Bond Type Allocation Price
+U.S. Treasury Bonds (10-year, 2.5% coupon) 40% 98.335
+Investment-Grade Corporate Bonds (7-year, A-rated, 4% coupon) 30% 101.48
+Mortgage-Backed Securities (15-year, AA-rated, 4.5% coupon) 15% 99.29
+Municipal Bonds (10-year, AA-rated, 3.5% coupon) 15% 96.01
+
+Bond Type Allocation Price
+U.S. Treasury Bonds (30-year, 3% coupon) 20% 98.412
+Investment-Grade Corporate Bonds (10-year, BBB-rated, 5% coupon) 40% 101.77
+Mortgage-Backed Securities (20-year, A-rated, 5.5% coupon) 20% 98.23
+Municipal Bonds (15-year, BBB-rated, 4.5% coupon) 20% 90.5512
+
+Key economic indicators by quarter:
+quarter unemployment rate CPI GDP
+Q1-2019 3.903691245 0.33512 2.2
+Q2-2019 3.651032239 1.19851 2.7
+Q3-2019 3.686314572 0.27417 3.6
+Q4-2019 3.617193537 0.21302 1.8
+Q1-2020 3.910313722 0.41943 -4.6
+Q2-2020 13.27681752 -0.54004 -29.9
+Q3-2020 8.734772348 1.13149 35.3
+Q4-2020 7.014572814 0.22995 3.9
+Q1-2021 6.212878138 1.07311 6.3
+Q2-2021 5.968664828 2.33979 7
+Q3-2021 5.11710612 1.60098 2.7
+Q4-2021 4.283604549 1.51776 7
+Q1-2022 3.915559061 2.28346 -1.6
+Q2-2022 3.652408162 2.97383 -0.6
+Q3-2022 3.58914547 1.31466 3.2
+Q4-2022 3.621217555 0.36716 2.6
+Q1-2023 3.627101093 1.04491 2
+Q2-2023 3.580971533 2.4
+
+Market Data:
+
+Below provides Treausry rate in the last five days.
+
+Date 1 year 10 Year 20 Year
+10/2/2023 5.22 4.96 5
+10/3/2023 5.18 5.1 5.13
+10/4/2023 5.13 5.02 5.05
+10/5/2023 5.1 5.04 5.06
+10/6/2023 5.13 5.1 5.13
+
+Summary of FOMC meeting on Sep 20 2023:
+The Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 5.4 percent, effective September 21, 2023.As part of its policy decision, the Federal Open Market Committee voted to direct the Open Market Desk at the Federal Reserve Bank of New York, until instructed otherwise, to execute transactions in the System Open Market Account in accordance with the following domestic policy directive:
+Effective September 21, 2023, the Federal Open Market Committee directs the Desk to:
+Undertake open market operations as necessary to maintain the federal funds rate in a target range of 5-1/4 to 5-1/2 percent.
+Conduct standing overnight repurchase agreement operations with a minimum bid rate of 5.5 percent and with an aggregate operation limit of $500 billion.
+In a related action, the Board of Governors of the Federal Reserve System voted unanimously to approve the establishment of the primary credit rate at the existing level of 5.5 percent.
+
+Fed Debt borrow plan:
+During the July – September 2023 quarter, Treasury expects to borrow $1.007 trillion in privately-held net marketable debt, assuming an end-of-September cash balance of $650 billion.[2] The borrowing estimate is $274 billion higher than announced in May 2023, primarily due to the lower beginning-of-quarter cash balance ($148 billion) and higher end-of-quarter cash balance ($50 billion), as well as projections of lower receipts and higher outlays ($83 billion).[3]
+During the October – December 2023 quarter, Treasury expects to borrow $852 billion in privately-held net marketable debt, assuming an end-of-December cash balance of $750 billion.[4]
+During the April – June 2023 quarter, Treasury borrowed $657 billion in privately-held net marketable debt and ended the quarter with a cash balance of $402 billion. In May 2023, Treasury estimated borrowing of $726 billion and assumed an end-of-June cash balance of $550 billion. The $70 billion decrease in privately-held net market borrowing resulted primarily from the lower end-of-quarter cash balance ($148 billion), somewhat offset by lower receipts and higher outlays.
+
+Provide your observation and analysis of these portfolios given the macro economic conditions and highlight specific risks.
+Classify each portfolio in one of the following types Conservative, Moderate or High risk exposure.

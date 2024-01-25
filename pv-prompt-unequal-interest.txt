@@ -1,0 +1,10 @@
+You are now going to calculate present value of a set of future cashflows but with unequal periodic interest rates.
+
+Coupon rate: 9%
+Maturity value: $1000
+Interest rate for period 1: 6.07%
+Interest rate for period 2: 6.17%
+Interest rate for period 3: 6.70%
+Interest rate for period 4: 6.88%
+
+Find the present value of the cashflows. Provide your steps.

@@ -1,0 +1,35 @@
+Okay, let's calculate the bond duration based on the provided information:
+
+1. Initialize pv_coupon to 0
+2. Initialize pv_face to 0
+
+3. For period from 1 to 5:
+3.1 Calculate present value of coupon for period 1: 25 / (1 + 0.06)^1 = 23.5849
+3.2 Multiply present value of coupon by period 1: 23.5849 * 1 = 23.5849  
+3.3 Add to pv_coupon: pv_coupon = 0 + 23.5849 = 23.5849
+
+3.1 Calculate present value of coupon for period 2: 25 / (1 + 0.06)^2 = 22.2642
+3.2 Multiply present value of coupon by period 2: 22.2642 * 2 = 44.5284
+3.3 Add to pv_coupon: pv_coupon = 23.5849 + 44.5284 = 68.1133
+
+3.1 Calculate present value of coupon for period 3: 25 / (1 + 0.06)^3 = 21.0393
+3.2 Multiply present value of coupon by period 3: 21.0393 * 3 = 63.1179
+3.3 Add to pv_coupon: pv_coupon = 68.1133 + 63.1179 = 131.2312
+
+3.1 Calculate present value of coupon for period 4: 25 / (1 + 0.06)^4 = 19.8609
+3.2 Multiply present value of coupon by period 4: 19.8609 * 4 = 79.4436
+3.3 Add to pv_coupon: pv_coupon = 131.2312 + 79.4436 = 210.6748
+
+3.1 Calculate present value of coupon for period 5: 25 / (1 + 0.06)^5 = 18.7686
+3.2 Multiply present value of coupon by period 5: 18.7686 * 5 = 93.8430
+3.3 Add to pv_coupon: pv_coupon = 210.6748 + 93.8430 = 304.5178
+
+4. Calculate present value of face value: 1000 / (1 + 0.06)^5 = 747.2597
+5. Multiply present value of face value by 5: 747.2597 * 5 = 3736.2983
+6. Add to pv_face: pv_face = 0 + 3736.2983 = 3736.2983
+
+7. Calculate total present value: 304.5178 + 3736.2983 = 4040.8161
+
+8. Calculate duration: 4040.8161 / 950 = 4.2513
+
+Therefore, the bond duration is 4.2513

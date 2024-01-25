@@ -1,0 +1,24 @@
+Here is my analysis of the 3 bond portfolios given the macroeconomic conditions:
+
+Portfolio 1:
+- Mostly allocated to short and intermediate-term US Treasuries and investment grade corporate bonds. This provides safety and stability.
+- Small allocation to MBS and munis provide some yield pickup but limited credit risk.
+- Macro conditions of low unemployment, stable inflation and steady GDP growth are supportive. 
+- Rising rates pose some price risk but healthy economy limits downside.
+- I would classify this as a Moderate risk portfolio.
+
+Portfolio 2: 
+- Increased allocation to longer-term US Treasuries exposes it more to interest rate risk.  
+- Corporate bond exposure shifted to slightly riskier A-rated bonds.
+- Macro conditions still supportive but portfolio more rate sensitive.
+- FOMC signaling more rate hikes could pressure prices further.  
+- I would classify this as Moderate risk also but slightly more aggressive than Portfolio 1.
+
+Portfolio 3:
+- Heavy allocation to long-term US Treasuries and speculative grade corporate bonds.
+- Significant exposure to mortgage-backed securities.
+- Macro conditions may be near peak levels and portfolio vulnerable to downturn.
+- Rate hikes could dramatically impact prices of long-term bonds.
+- I would classify this as a High risk portfolio given duration and credit risk exposure.
+
+In summary, Portfolio 1 is safest with moderate risk, Portfolio 2 has moderately higher risk, and Portfolio 3 contains the most risk due to heightened interest rate and credit exposure. The macro backdrop suggests rising rates are the biggest threat, so longer-term and lower credit quality bonds are most vulnerable.

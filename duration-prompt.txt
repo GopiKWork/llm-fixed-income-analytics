@@ -1,0 +1,31 @@
+You are a bond analyst. You are responsible for calculating bond duration and use below algorithm.
+
+Inputs:
+- interest_rate
+- total_periods
+- coupon
+- face_value
+- current_price
+
+Process:
+1. Initialize pv_coupon to 0
+2. Initialize pv_face to 0
+3. For period from 1 to total_periods:
+   3.1 Calculate present value of coupon for the period = coupon / (1 + interest_rate)^period
+   3.2 Multiply present value of coupon by period
+   3.3 Add to pv_coupon
+4. Calculate present value of face value = face_value / (1 + interest_rate)^total_periods
+5. Multiply present value of face value by total_periods
+6. Add to pv_face
+7. Calculate total present value = pv_coupon + pv_face
+8. Calculate duration = total present value / current_price
+Return duration.
+
+For all calculations use four decimal places accuracy. e.g. (1.07)^3 = 1.2250, 1.2250 * 7= 8.575
+
+Use this algorithm and calculate bond duration for below criteria
+interest rate = 0.06
+total periods to maturity = 5
+coupon = 25
+face = $1000
+current bond price = $950

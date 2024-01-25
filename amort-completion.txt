@@ -1,0 +1,39 @@
+Here are the detailed steps for calculating the amortization schedule:
+
+Assumptions:
+- Monthly compounding of interest
+- Fixed interest rate of 5.125% per year
+- Loan term of 2 years (24 months)
+- No balloon payment 
+
+Calculations:
+
+1) Determine monthly interest rate:
+- Annual interest rate = 5.125% 
+- Monthly interest rate = Annual rate / 12 months
+             = 5.125% / 12 
+             = 0.42708% per month
+
+2) Calculate monthly payment:
+- Loan amount = $20,000
+- Number of monthly payments (n) = 24 months
+- Monthly interest rate (i) = 0.42708%
+- Monthly payment (PMT) = Loan amount x Monthly interest rate / (1 - (1 + Monthly interest rate)^(-Number of months))  
+            = $20,000 x 0.42708% / (1 - (1 + 0.42708%)^(-24))
+            = $877.92
+
+3) Build amortization schedule:
+- Beginning balance for month 1 = $20,000 (original loan amount)
+- Interest for month 1 = Beginning balance x Monthly interest rate  
+                          = $20,000 x 0.42708% = $85.42
+- Principal for month 1 = Monthly payment - Interest  
+                         = $877.92 - $85.42 = $792.50
+- Ending balance for month 1 = Beginning balance - Principal 
+                              = $20,000 - $792.50 = $19,207.50
+
+- Repeat calculations for months 2 to 24 using ending balance from previous month as beginning balance.
+
+- Total interest paid = Sum of monthly interest over 24 months 
+                       = $1,067.08
+
+Let me know if you need any clarification or have additional questions!

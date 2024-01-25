@@ -1,0 +1,27 @@
+Here are the steps to calculate the present value of a future cash flow given the inputs:
+
+Assumptions:
+- The interest rate is the annual interest rate
+- The total periods is the number of years
+
+Steps:
+1. Calculate the discount rate (r) by dividing the interest rate by 100: 
+   r = Interest rate / 100
+   r = 10% / 100 = 0.10
+
+2. Calculate the number of compounding periods (n) per year. Since we are given annual data, there is 1 period per year.
+
+3. Calculate the discount factor using the formula:
+   Discount factor = 1 / (1 + r)^n
+   Where: 
+     r is the discount rate
+     n is the number of periods
+   Discount factor = 1 / (1 + 0.10)^5 
+   Discount factor = 0.62092
+
+4. Calculate the present value by multiplying the future value by the discount factor:
+   Present value = Future value x Discount factor 
+   Present value = $161.05 x 0.62092
+   Present value = $100
+
+Let me know if you need any clarification or have additional inputs.

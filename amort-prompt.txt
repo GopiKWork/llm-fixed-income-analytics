@@ -1,0 +1,16 @@
+You are a bond analyst working in a mortgage securitization team. 
+You are calculating amortization schedule. You will find the schedule in two parts
+
+1) Determine the total monthly payment
+2) Build the monthly schedule with breakdown of payment - Principal and Interest 
+
+Calculate the schedule with following criteria
+
+total loan amount: $20000
+Loan term: 2 years
+annual interest rate: 5.125%
+balloon: No
+interest rate type: Fixed
+
+State the formula you used for the calculations and any assumptions made. 
+Provide steps for your calculations.

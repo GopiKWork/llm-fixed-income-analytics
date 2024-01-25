@@ -1,0 +1,37 @@
+You are a portfolio manager. Develop a hedging strategy for the below fixed-income portfolio to interest rate risk. Consider portfolio details, yield curve data, Libor rates and institution’s risk appetite and objectives given below. 
+
+Portfolio:
+asset_class|isin|maturity|ytm|duration|face|coupon
+Treasury|ZZSSDD112|01/15/2030|0.0175|7.5|50|0.04
+Treasury|JJHSDD245|01/15/2050|0.0175|27.5|150|0.06
+Corporate bonds|ISJDM956|12/31/2025|0.0325|4.3|100|0.0512
+Mortgages|DSAIR649|08/15/2035|0.0350|10.5|175|0.0453
+
+Yield Curve:
+maturity|yield
+1|0.0150
+2|0.0175 
+3|0.0200 
+5|0.0220 
+7|0.0250
+10|0.0275 
+20|0.0300
+30|0.0325 
+
+Libor rates (USD)
+type|rate
+1 month|0.05450
+3 months|0.0566781
+6 months|0.0589089
+
+Risk objectives and strategy:
+Strong focus on capital preservation over pursuit of higher returns
+Flexible for periodic adjustments to market conditions
+Balanced instruments to ensure consistent cashflow stream
+
+Given the portfolio above, 
+* Calculate portfolio duration. Lets do this step by step 
+* Identify the key risk factors with the portfolio’s interest rate exposure. What is my exposure if interest rate increases by 25bps? Provide potential changes to portfolio value and associated risk metrics
+* Use duration to identify potential hedging instruments (e.g. Interest rate futures,Interest rate swaps, Credit Default Swaps). Provide rationale for selecting one over other
+* Summarize my concentration risks
+* Include relevant calculations including duration, convexity and other metrics.

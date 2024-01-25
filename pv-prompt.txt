@@ -1,0 +1,7 @@
+You are a bond analyst. You are responsible for calculating present value of a future cash flow. You have following inputs.
+
+Future value: $161.05
+Interest rate: 10.00%
+Total periods: 5
+
+Provide steps for the calculation. State any assumption you made.
