@@ -1,16 +1,42 @@
-Analyze the three bond portfolios given the macro economic conditions.
+Simulate a scenario with three capital markets experts a Trader, a Risk Management Specialist, and an Economist collaboratively analyzing three bond portfolios and what actions need to be taken given the macro economic conditions. 
+Each one verbosely explains their thought process in real-time, considering the prior explanations of others and openly acknowledging mistakes. 
+They think step by step and at each step, provide detailed quantitiatve analysis calling out with metrics, and whenever possible, each expert refines and builds upon the thoughts of others, acknowledging their contributions. They can disagree with others citing facts and figures and try to convince others.
+They continue thinking process (steps) until there is a consensus among them. Finally the trader summarizes agreed changes to each portfolio. 
 
+Trader's Perspective:
+Objective: Maximizing short-term returns and managing market risks.
+* Recommends trading strategies for maximizing returns in the current market environment
+* Considers portfolio's liquidity profile impacting trading decisions and execution
+* Identifies any specific market trends or opportunities that can be capitalized upon through active trading.
+
+Risk Management Specialist's Perspective:
+Objective: Ensure the portfolio's resilience against adverse market movements and unexpected events.
+* Provides an in-depth analysis of the portfolio's risk exposure, considering factors such as market, credit, and operational risks.
+* Evaluates the effectiveness of the current diversification strategy in mitigating risk and suggests improvements 
+* Performs stress tests to assess portfolio in extreme market conditions or economic shocks.
+
+Economist's Perspective:
+Objective: Seeks to understand the broader economic context and how it may impact the portfolio's performance.
+* Analyzes current macroeconomic trends and their potential implications for the portfolio.
+* Impact of interest rates and inflation on asset classes within the portfolio.
+* Considers global economic factors or geopolitical events that may affect the portfolio's overall performance.
+
+
+Portfolo 1:
 Bond Type Allocation Price
 U.S. Treasury Bonds (5-year, 2% coupon) 50% 98.23
-Investment-Grade Corporate Bonds (7-year, AA-rated, 3% coupon) 30% 101.57 Mortgage-Backed Securities (10-year, AAA-rated, 3.5% coupon) 10% 99.38
+Investment-Grade Corporate Bonds (7-year, AA-rated, 3% coupon) 30% 101.57 
+Mortgage-Backed Securities (10-year, AAA-rated, 3.5% coupon) 10% 99.38
 Municipal Bonds (5-year, AAA-rated, 2.5% coupon) 10% 95.6823
 
+Portfolio 2:
 Bond Type Allocation Price
 U.S. Treasury Bonds (10-year, 2.5% coupon) 40% 98.335
 Investment-Grade Corporate Bonds (7-year, A-rated, 4% coupon) 30% 101.48
 Mortgage-Backed Securities (15-year, AA-rated, 4.5% coupon) 15% 99.29
 Municipal Bonds (10-year, AA-rated, 3.5% coupon) 15% 96.01
 
+Portfolio 3:
 Bond Type Allocation Price
 U.S. Treasury Bonds (30-year, 3% coupon) 20% 98.412
 Investment-Grade Corporate Bonds (10-year, BBB-rated, 5% coupon) 40% 101.77
@@ -18,7 +44,7 @@ Mortgage-Backed Securities (20-year, A-rated, 5.5% coupon) 20% 98.23
 Municipal Bonds (15-year, BBB-rated, 4.5% coupon) 20% 90.5512
 
 Key economic indicators by quarter:
-quarter unemployment rate CPI GDP
+quarter unemployment rate Inflation rate GDP
 Q1-2019 3.903691245 0.33512 2.2
 Q2-2019 3.651032239 1.19851 2.7
 Q3-2019 3.686314572 0.27417 3.6
@@ -60,6 +86,3 @@ Fed Debt borrow plan:
 During the July – September 2023 quarter, Treasury expects to borrow $1.007 trillion in privately-held net marketable debt, assuming an end-of-September cash balance of $650 billion.[2] The borrowing estimate is $274 billion higher than announced in May 2023, primarily due to the lower beginning-of-quarter cash balance ($148 billion) and higher end-of-quarter cash balance ($50 billion), as well as projections of lower receipts and higher outlays ($83 billion).[3]
 During the October – December 2023 quarter, Treasury expects to borrow $852 billion in privately-held net marketable debt, assuming an end-of-December cash balance of $750 billion.[4]
 During the April – June 2023 quarter, Treasury borrowed $657 billion in privately-held net marketable debt and ended the quarter with a cash balance of $402 billion. In May 2023, Treasury estimated borrowing of $726 billion and assumed an end-of-June cash balance of $550 billion. The $70 billion decrease in privately-held net market borrowing resulted primarily from the lower end-of-quarter cash balance ($148 billion), somewhat offset by lower receipts and higher outlays.
-
-Provide your observation and analysis of these portfolios given the macro economic conditions and highlight specific risks.
-Classify each portfolio in one of the following types Conservative, Moderate or High risk exposure.
